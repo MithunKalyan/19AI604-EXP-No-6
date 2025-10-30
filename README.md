@@ -1,9 +1,9 @@
 ## Experiment 6 – Create an Application to Demonstrate Vector Collection Object  
 
-<H3>ENTER YOUR NAME:</H3>  
-<H3>ENTER YOUR REGISTER NO:</H3>  
+<H3>ENTER YOUR NAME: PAGADALA MITHUN KALYAN</H3>  
+<H3>ENTER YOUR REGISTER NO: 212223040142</H3>  
 <H3>EX.NO.4</H3>  
-<H3>DATE:</H3>  
+<H3>DATE: 30/10/2025</H3>  
 
 <H1 ALIGN =CENTER> Demonstrating Vector Collection in Rust </H1>  
 
