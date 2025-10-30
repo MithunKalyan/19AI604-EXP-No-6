@@ -38,11 +38,49 @@ STEP 8: End the program. <BR>
 
 ## PROGRAM:  
 ```
-// Type Your Code
+// Rust program to demonstrate Vector Collection
+
+fn main() {
+    // Step 4: Create a new Vector
+    let mut numbers: Vec<i32> = Vec::new();
+
+    // Step 5: Insert values into the vector
+    numbers.push(10);
+    numbers.push(20);
+    numbers.push(30);
+    numbers.push(40);
+    numbers.push(50);
+
+    // Step 6: Iterate and print elements of the vector
+    println!("Elements of the vector:");
+    for num in &numbers {
+        println!("{}", num);
+    }
+
+    // Step 7: Access elements using indexing and .get()
+    println!("\nAccessing elements:");
+    println!("First element (using index): {}", numbers[0]);
+    
+    match numbers.get(2) {
+        Some(value) => println!("Third element (using get): {}", value),
+        None => println!("No element found at index 2"),
+    }
+
+    // Demonstrate removing the last element
+    numbers.pop();
+    println!("\nAfter removing the last element:");
+    for num in &numbers {
+        println!("{}", num);
+    }
+}
 
 ```
-##OUTPUT:
+## OUTPUT:
 
+<img width="1183" height="987" alt="image" src="https://github.com/user-attachments/assets/d513d738-d49c-49d4-be40-b5cdc7184f99" />
 
+<img width="502" height="281" alt="image" src="https://github.com/user-attachments/assets/c5d02b60-ac81-4211-b476-ecff14cc57f2" />
 
-##RESULT:
+## RESULT:
+
+Thus, the Rust program to demonstrate the Vector Collection Object was successfully implemented and executed.
